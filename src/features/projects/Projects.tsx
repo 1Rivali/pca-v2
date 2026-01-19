@@ -1,5 +1,5 @@
 import Header from '../layout/components/Header'
-import Footer from '../layout/components/Footer'
+
 import ProjectsHero from './components/ProjectsHero'
 import IntroductionSection from './components/IntroductionSection'
 import FourStepsSection from './components/FourStepsSection'

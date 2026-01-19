@@ -39,23 +39,10 @@ interface ContactUsDialogProps {
   onClose: () => void
 }
 
-function MapPinIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-    </svg>
-  )
-}
 
-function MapFoldIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
-      <path d="M8 8h24l8 8v24H8V8z" />
-      <path d="M32 8v8h8" />
-    </svg>
-  )
-}
+
+
+
 
 export default function ContactUsDialog({ open, onClose }: ContactUsDialogProps) {
   useEffect(() => {
