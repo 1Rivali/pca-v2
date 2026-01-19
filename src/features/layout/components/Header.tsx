@@ -78,13 +78,6 @@ export default function Header() {
             {navItems.map((item) => (
               <NavLinkComponent key={item.path} item={item} />
             ))}
-            <button
-              type="button"
-              onClick={() => setContactOpen(true)}
-              className="ml-2 px-4 py-2 bg-pca-primary hover:bg-pca-primary-hover text-white text-sm font-medium rounded transition-colors"
-            >
-              Let&apos;s Collaborate →
-            </button>
           </nav>
 
           {/* Mobile Menu Button */}

@@ -1,4 +1,4 @@
-import fourSteps from './fourSteps.svg'
+import fourSteps from './fourSteps.png'
 import projectsBanner from './projectsBanner.svg'
 import inStoreBrandings from './inStoreBranding.svg'
 import installations from './installations.svg'
