@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pca-primary: #825E4C;
+  --color-pca-secondary: #38312D;
+  --color-pca-beige: #C6B0A6;
+  --color-pca-brown-dark: #55433A;
+  --color-pca-black: #1A1A1A;
+  --color-pca-cream: #FDF8F6;
+  --color-pca-red: #991B1F;
+  --color-pca-tan: #B8A88E;
+  --color-pca-brown-warm: #4F3528;
+  --color-pca-primary-hover: #6B4D3D;
+}
+
+@keyframes crawl-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes crawl-right {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-crawl-left {
+  animation: crawl-left 30s linear infinite;
+}
+
+.animate-crawl-right {
+  animation: crawl-right 30s linear infinite;
+}
